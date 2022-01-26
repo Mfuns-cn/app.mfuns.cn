@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8">
+    <title>MFuns 手机版 App</title>
+    <meta name="description" content="立即下载 MFuns 手机版 App，喵御宅Mfuns,发射(。゜ω゜)ノ&quot;!">
+    <link rel="shortcut icon" href="/img/favicon.png" type="img/png">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <style>
+        html,
+        body {
+            height: 100%;
+            position: relative;
+            background-color: #F5F5F5;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        a:focus {
+            text-decoration: none
+        }
+        .root {
+            height: 100%;
+        }
+        .root-page-part {
+            height: 100%;
+        }
+        .icon-img {
+            width: calc(4rem + 3vw);
+            border-radius: calc(1rem + 1vw);
+            box-shadow: 0 0 20px #bee3fe;
+        }
+        .left-area-part {
+            margin-top: 20rem;
+            cursor: default;
+        }
+        .left-area-inner {
+            padding-bottom: calc(5px + 0.6vw);
+            text-align: center;
+        }
+        body {
+            background-image: url(/img/mobile_bg_pic.png);
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+        }
+        @media screen and (min-width: 768px) {
+            body {
+                background-image: url(/img/mobile_bg_pic2.png);
+                background-repeat: no-repeat;
+                background-size: 150% auto;
+            }
+        }
+        @media screen and (min-width: 1100px) {
+            body {
+                background-image: url(/img/mobile_bg_pic3.png);
+                background-repeat: no-repeat;
+                background-size: 130rem auto;
+            }
+        }
+        .right-area {
+            overflow: hidden;
+            padding-left: 4.5vh;
+        }
+        .right-area-part {
+            height: 100%;
+            background-image: url(/img/bg2_1.png);
+            background-repeat: no-repeat;
+            background-position-x: -25rem;
+            min-width: 2000px;
+            position: absolute;
+            margin-right: -7%;
+            -webkit-transform: skew(5deg) translateZ(0);
+            box-shadow: 20px -2px 38px -20px #000000 inset;
+            filter: brightness(80%);
+            background-size: cover;
+            -webkit-background-size: cover;
+            -o-background-size: cover;
+            transition: filter .3s;
+        }
+        .button-part {
+            width: 100%;
+            height: 100%;
+        }
+        .button-inner {
+            position: absolute;
+            left: 32em;
+            top: 15em;
+        }
+        .name-text {
+            font-weight: bolder;
+            font-size: calc(20px + 1vw);
+        }
+        .slogan-text {
+            font-size: calc(16px + 1vw);
+        }
+        .web-button {
+            color: #FFFFFF;
+            font-size: calc(20px + 0.6vw);
+            vertical-align: middle;
+            text-decoration: none;
+            transition: all .3s;
+            width: calc(12rem + 7vw);
+            text-align: center;
+            border-radius: 100px;
+            padding: 10px 10px;
+            margin-bottom: 30px;
+            cursor: pointer;
+            border: 0;
+        }
+        .web-button:focus {
+            outline: none;
+        }
+        .button-a {
+            background: linear-gradient(90deg, #FB7299 0%, #FDB9CC 100%);
+            background-size: 200% 100%;
+            background-position: 205% 0;
+        }
+        .button-b {
+            background: linear-gradient(90deg, #3EAEFF 0%, #9FD6FF 100%);
+            background-size: 200% 100%;
+            background-position: 205% 0;
+        }
+        .button-c {
+            background: linear-gradient(90deg, #FFCE3D 0%, #FFE79E 100%);
+            background-size: 200% 100%;
+            background-position: 205% 0;
+        }
+        .button-d {
+            background: linear-gradient(90deg, #3DFFA4 0%, #9EFFD1 100%);
+            background-size: 200% 100%;
+            background-position: 205% 0;
+        }
+        .web-button:hover {
+            animation: bgColor 3s infinite;
+            transition: all .3s;
+        }
+        .web-button:active {
+            filter: brightness(80%);
+            transition: all .3s;
+        }
+        @keyframes bgColor {
+            0% {
+                background-position: 200% 0;
+            }
+            100% {
+                background-position: 0 0;
+            }
+        }
+        .slogan-text {
+            color: #9F76C6;
+        }
+        .right-area-part:hover {
+            filter: brightness(60%);
+            transition: filter .3s;
+        }
+        .qrcode-content {
+            text-align: center;
+        }
+        .qrcode-download-img {
+            width: calc(8rem + 5vw);
+        }
+        .web-link {
+            line-height: 200%;
+        }
+        .qun-content {
+            color: white;
+            text-align: center;
+        }
+        @media screen and (max-width: 1919px) {
+            .button-inner {
+                position: absolute;
+                left: 40%;
+                top: 30%;
+            }
+            .left-area-part {
+                position: relative;
+                margin-top: 0;
+                top: 35%;
+            }
+        }
+        @media screen and (min-width: 1921px) {
+            .button-inner {
+                position: absolute;
+                left: 40%;
+                top: 45%;
+            }
+            .left-area-part {
+                position: relative;
+                margin-top: 0;
+                top: 40%;
+            }
+            .icon-img {
+                width: calc(4rem + 5vw);
+            }
+            .name-text {
+                font-size: calc(20px + 1.7vw);
+            }
+            .slogan-text {
+                font-size: calc(16px + 1.6vw);
+            }
+            .web-button {
+                font-size: calc(20px + 1.3vw);
+                width: calc(12rem + 13vw);
+            }
+        }
+        @media screen and (max-width: 767px) {
+            .right-area {
+                display: none;
+            }
+            .web-button {
+                margin-bottom: 10px;
+            }
+            .home-page-button-area {
+                margin-top: 20px;
+            }
+            .left-area-part {
+                top: calc(30vh + 10vh);
+            }
+            .web-button {
+                font-size: calc(15px + 0.5vw);
+                width: 11rem;
+                padding: 6px 10px;
+            }
+            .web-link {
+                font-size: 3.5vw;
+            }
+        }
+        @media screen and (min-width: 768px) {
+            .home-page-button-area {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="root container-fluid">
+        <div class="root-page-part row">
+            <div class="left-area main-area col-md-4">
+                <div class="left-area-part">
+                    <div class="logo-area left-area-inner">
+                        <img src="/img/icon.jpg" class="icon-img" alt="喵御宅">
+                    </div>
+                    <div class="app-name-area left-area-inner">
+                        <span class="name-text">喵御宅</span>
+                    </div>
+                    <div class="slogan-area left-area-inner">
+                        <span class="slogan-text">MAD Cosplay 创作二次元社区</span>
+                    </div>
+                    <div class="home-page-button-area left-area-inner">
+                        <div>
+                            <button onclick="window.location.href='https://app.mfuns.cn/releases/mfuns-old.apk'"
+                                class="web-button button-a">Android 下载
+                            </button>
+                        </div>
+                        <div>
+                            <button
+                                onclick="window.location.href='https://app.mfuns.cn/releases/mfuns-cocoa-webapp-v0.1.0.ipa'"
+                                class="web-button button-b">iOS 下载
+                            </button>
+                        </div>
+                        <div>
+                            <button
+                                onclick="window.location.href='https://app.mfuns.cn/releases/mfuns-webapp-v0.0.6.apk'"
+                                class="web-button button-c">Android 尝鲜版
+                            </button>
+                        </div>
+                        <div>
+                            <a href="https://jq.qq.com/?_wv=1027&k=69VBNSlv" class="web-link">APP 反馈群：825962575
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.mfuns.cn/" class="web-link">进入网页端
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-area main-area col-md-8">
+                <div class="right-area-part">
+                </div>
+                <div class="button-part">
+                    <div class="button-inner">
+                        <div>
+                            <button onclick="window.location.href='https://app.mfuns.cn/releases/mfuns-old.apk'"
+                                class="web-button button-a">Android 下载
+                            </button>
+                        </div>
+                        <div>
+                            <button
+                                onclick="window.location.href='https://app.mfuns.cn/releases/mfuns-cocoa-webapp-v0.1.0.ipa'"
+                                class="web-button button-b">iOS 下载
+                            </button>
+                        </div>
+                        <div>
+                            <button
+                                onclick="window.location.href='https://app.mfuns.cn/releases/mfuns-webapp-v0.0.6.apk'"
+                                class="web-button button-c">Android 尝鲜版
+                            </button>
+                        </div>
+                        <div>
+                            <button onclick="window.location.href='https://www.mfuns.cn/'"
+                                class="web-button button-d">进入网页端
+                            </button>
+                        </div>
+                        <div class="qun-content">
+                            <a href="https://jq.qq.com/?_wv=1027&k=69VBNSlv" class="web-link" style="color: #ccc;">APP 反馈群：825962575
+                            </a>
+                        </div>
+                        <div class="qrcode-content">
+                            <img src="/img/qr_code.png" class="qrcode-download-img" alt="APP下载二维码" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
