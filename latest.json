@@ -1,7 +1,7 @@
 {
-  "version": 69,
-  "url": "./releases/mfuns-webapp-v0.0.7.apk",
-  "hash": "Ohn+B88arDmtcpFiEbJcBGWRPkxytijpcQVnKFc9eQcCGOstLSmg01VBI82MRofudoZYtrGzymlyXMzfhDuC9A==",
-  "size": 6055180,
-  "releaseNote": "安卓尝鲜版 v0.0.7\n2022-01-27 发布\n\n修复：\n- 修复了一项自动更新的问题\n\n反馈交流群：825962575\n"
+  "version": 89,
+  "url": "./releases/mfuns-webapp-v0.0.8.apk",
+  "hash": "jigQYLslZz42H1KADyF5t3VFnfJc3Kr+TT6DQSA541a+muIGhc4tBsEzNC+kuMglejSwsoJ2VlaDsRWNHwdQgw==",
+  "size": 7094781,
+  "releaseNote": "安卓尝鲜版 v0.0.8\n2022-02-02 发布\n\n改进：\n\n- 现在，在打开图片时，应用会模式使用内置的图片查看器。内置的图片查看器可以在操作栏进行打开和保存等操作。\n- 优化了打开图片的操作。现在可以从「设置」内更改打开图片时的默认操作。可以选择使用内置的图片查看器打开，也可选择使用系统相册打开，或直接下载图片。\n- 添加了反馈交流群的加群方式。\n- 优化了图片查看器的样式。\n- 所有页面均已适配全面屏、金刚键和小白条。导航按键的状态会随着页面更改而更改。\n\n修复：\n\n- 修复了无法观看视频的问题。\n- 修复了一个问题，该问题会导致内核在网页跳转时崩溃。\n\n反馈交流群：825962575\n"
 }
