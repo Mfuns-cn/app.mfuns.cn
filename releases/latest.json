@@ -1,7 +1,7 @@
 {
-  "version": 118,
-  "url": "./mfuns-webapp-v0.0.10.apk",
-  "hash": "rpi1BtcMWAnVm68HLLYUi+u6SHvq+7vW3D9N85REPrRnMrgMRRC1NyzDKE7KwWT4y2Bu6PGOHz8tihJ+LXpYfw==",
-  "size": 7094949,
-  "releaseNote": "安卓尝鲜版 v0.0.10\n2022-02-05 发布\n\n改进\n- 为了解决小众设备上应用启动失败的问题，不同设备页面显示不一致的问题，以及未来的兼容性和扩展性问题，现在，App 将会统一使用 TBS 作为浏览器内核。\n- 夜间模式现已可用！在「设置」页面启用夜间模式以享受暗色背景的浏览体验。注意：可能需要预先在 WiFi 下下载部分组件。\n- 恢复了「设置」页面对于 TBS 版本的检查字段。\n- 优化了部分设置字段和提示。\n\n修复：\n- 修复了图片上传/视频上传相关的问题。\n- 修复了一个问题，该问题会导致应用内点击 App 下载和客服按钮时出现闪退。\n- 修复了一个问题，该问题会导致应用拉起手 Q 时出现闪退。\n- 修复了部分主题相关的问题。\n\n反馈交流群：825962575\n"
+  "version": 127,
+  "url": "./mfuns-webapp-v0.0.11.apk",
+  "hash": "2NymMJjNJbFc94uAi3OIc4HeSS6Lx4ibh6sYf4Soa5lqapE9aT8qQqu3BSq7DXIz9AFvoGzuW51iChqsp4132Q==",
+  "size": 7095005,
+  "releaseNote": "安卓尝鲜版 v0.0.11\n2022-02-08 发布\n\n改进\n- 更新了应用自更新组件。\n\n修复：\n- 修复了视频无法全屏播放的问题。\n- 修复了一个问题，该问题会导致应用启动时状态栏和导航栏的表现不正常。\n- 修正了部分字段的文本。\n\n注：导航栏在全屏模式下和退出全屏模式后显示不正常的 bug 已知，将会在未来版本中修复。\n\n反馈交流群：825962575\n"
 }
