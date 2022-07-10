@@ -1,0 +1,6 @@
+* text eol=lf
+
+*.png -text
+*.jpg -text
+*.ipa -text
+*.apk -text
