@@ -1,7 +1,7 @@
 {
-  "version": 221,
-  "url": "./mfuns-webapp-v0.1.1.apk",
-  "hash": "cCxFyiuh364Dwl9FwxF01YZokZ783TboYxzcTfeKiUkCmn9IqopgsPSjR4g7YaeLtlyGwAkHM7dzpTWy8H2EKw==",
+  "version": 226,
+  "url": "./mfuns-webapp-v0.1.2.apk",
+  "hash": "hXxTojK4CbxyDsAb192DXeuaAzPNOXAzo9IQcWSlrC5nDNO2Z/j1pjrx9Laphm61T7h+trk7AqbUK3sIRq3knw==",
   "size": 8436806,
-  "releaseNote": "Mfuns 安卓版 v0.1.1\n2022-08-21 发布\n\n改进：\n- 适配了更多主站链接。\n\n反馈交流群：825962575\n"
+  "releaseNote": "Mfuns 安卓版 v0.1.2\n2022-12-29 发布\n\n改进：\n- 移除了过时的主站链接。\n- 续期了时间炸弹。\n- 更新了更新源和炸弹源。\n\n反馈交流群：825962575\n"
 }
